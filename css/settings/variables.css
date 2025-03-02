@@ -1,0 +1,10 @@
+:root{
+    --color-primary: #966cac;
+    --color-secondary: #c6d42b;
+    --color-tertiary: #48babb;
+    --color-white: #f2f2f2;
+    --color-black: #232322;
+
+    --font-title: "Sigmar", serif;
+    --font-text: "Nunito Sans", serif;
+}
