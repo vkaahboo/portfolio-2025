@@ -1,8 +1,11 @@
+.bg_header{
+    background-color: #d9d8d1;
+}
 
-.header{
+.header__content{
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 20px 0;
     align-items: center;
 }
 
@@ -28,4 +31,31 @@
     text-decoration: none;
     color: var(--color-primary);
     font-weight: 600;
+}
+
+.button__nav{
+    color: var(--color-primary);
+    &:hover{
+        color: var(--color-white);
+    }
+}
+
+.button a{
+    text-decoration: none;
+}
+
+.button{
+    display: inline-block;
+    padding: 9px 24px;
+    border: 2px solid var(--color-primary);
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all .6s ease;
+    color: var(--color-primary);
+    &:hover{
+        border: 2px solid var(--color-primary);
+        transform: translateY(-5px);
+        background-color: var(--color-primary);
+        color: var(--color-white);
+    }
 }
