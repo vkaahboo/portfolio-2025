@@ -46,7 +46,7 @@
     transition: all .6s ease;
     color: var(--color-black);
     &:hover{
-        border: 2px solid var--color-tertiary);
+        border: 2px solid var(--color-tertiary);
         transform: translateY(-5px);
         background-color: var(--color-black);
         color: var(--color-tertiary);

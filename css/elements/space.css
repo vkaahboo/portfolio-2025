@@ -17,3 +17,10 @@
     position: relative;
     padding-inline-start: 50px;
 }
+
+.quote{
+    background-color: var(--color-white);
+    padding: 50px;
+    text-align: center;
+    color: var(--color-primary);
+}
