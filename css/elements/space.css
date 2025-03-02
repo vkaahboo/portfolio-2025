@@ -1,0 +1,19 @@
+.space{
+    background-color: var(--color-primary);
+}
+
+.space__points{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+.space__info{
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 200%;
+    position: relative;
+    padding-inline-start: 50px;
+}

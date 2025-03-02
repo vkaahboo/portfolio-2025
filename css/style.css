@@ -8,6 +8,7 @@
 /* Elements */
 @import "./elements/header.css";
 @import "./elements/hero-banner.css";
+@import "./elements/space.css";
 
 /* Components */
 @import "./components/buttons.css";
